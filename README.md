@@ -4,21 +4,21 @@ Qt based cross-platform GUI proxy configuration manager (backend: v2ray / sing-b
 
 Support Windows / Linux out of the box now.
 
-基于 Qt 的跨平台代理配置管理器 (后端 v2ray / sing-box)
+Qt-based cross-platform proxy configuration manager (backend v2ray / sing-box)
 
-目前支持 Windows / Linux 开箱即用
+Currently supports Windows / Linux out of the box
 
 ## Readme Translations
 
-中文 / English / [fa_IR](README_fa.md)
+Chinese / English / [fa_IR](README_fa.md)
 
-## 下载 / Download
+## Download / Download
 
 ### GitHub Releases (Portable ZIP)
 
-便携格式，无安装器。转到 Releases 下载预编译的二进制文件，解压后即可使用。
+Portable format, no installer. Go to Releases to download the precompiled binaries, unpack them and use them.
 
-[![GitHub All Releases](https://img.shields.io/github/downloads/Matsuridayo/nekoray/total?label=downloads-total&logo=github&style=flat-square)](https://github.com/Matsuridayo/nekoray/releases)
+[![GitHub All Releases](https://img.shields.io/github/downloads/Matsuridayo/nekoray/total?label=downloads-total&logo=github&style=flat-square)](https://github.com/ Matsuridayo/nekoray/releases)
 
 [Download](https://github.com/Matsuridayo/nekoray/releases)
 
@@ -29,67 +29,67 @@ Support Windows / Linux out of the box now.
 3. macOS Homebrew (unoffical): [homebrew-nekoray](https://github.com/tdjnodj/homebrew-nekoray)
 4. Linux apt (unoffical): [tdjnodj/apt](https://github.com/tdjnodj/apt)
 
-## 更改记录 & 发布频道 / Changelog & Telegram channel
+## Changelog & Release Channel / Changelog & Telegram channel
 
 https://t.me/Matsuridayo
 
-## 项目主页 & 文档 / Homepage & Documents
+## Project Homepage & Documentation / Homepage & Documents
 
 https://matsuridayo.github.io
 
-## 代理 / Proxy
+## Proxy / Proxy
 
 * SOCKS (4/4a/5)
 * HTTP(S)
 * Shadowsocks
 * VMess
-* VLESS
-* Trojan
+*VLESS
+*Trojan
 * NaïveProxy ( Custom Core )
 * Hysteria ( Custom Core or sing-box )
 * Custom Outbound
 * Custom Config
 * Custom Core
 
-## 订阅 / Subscription
+## Subscribe / Subscription
 
 * Raw: some widely used formats (like shadowsocks, clash and v2rayN)
-* 原始格式：一些广泛使用的格式（如 shadowsocks、clash 和 v2rayN）
+* Raw formats: some widely used formats (such as shadowsocks, clash and v2rayN)
 
-## 运行参数
+## Operating parameters
 
-- `-many` 无视同目录正在运行的实例，强行开启新的实例 (0.11+)。
-- `-appdata` 开启后配置文件会指定目录，未指定目录则使用共享目录，无法多开和自动升级 (3.0+)。
+- `-many` ignores running instances of the same directory and forces new instances to start (0.11+).
+- After `-appdata` is turned on, the configuration file will specify the directory. If the directory is not specified, the shared directory will be used, and it cannot be opened and automatically upgraded (3.0+).
 
-## Windows 运行
+## Windows running
 
-若提示 DLL 缺失，无法运行，请下载 安装 [微软 C++ 运行库](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+If it prompts that the DLL is missing and cannot run, please download and install [Microsoft C++ Runtime Library](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
-## Linux 运行
+## Linux running
 
-[Linux 运行教程](docs/Run_Linux.md)
+[Linux Run Tutorial](docs/Run_Linux.md)
 
 ## macOS
 
-由于缺乏维护，不再提供 macOS 版本下载。
+The macOS version is no longer available for download due to lack of maintenance.
 
-您还可以在下面的存储库中非正式地获取更新版本。[非官方发布 / Unofficial releases](https://github.com/aaaamirabbas/nekoray-macos/releases)
+You can also unofficially grab updated versions in the repository below. [Unofficial Releases / Unofficial releases](https://github.com/aaaamirabbas/nekoray-macos/releases)
 
-仍可以参照下方教程自行编译，常见问题请参考历史 Issue，欢迎 Pull Request 修复。
+You can still compile it by yourself by referring to the tutorial below. For common problems, please refer to historical Issues. Pull Requests are welcome to fix.
 
-## 编译教程 / Compile Tutorial
+## Compile Tutorial / Compile Tutorial
 
 [Linux](docs/Build_Linux.md)
 
-[Mac](docs/Build_MacOS.md) or [用于自动构建的非官方脚本 / Unofficial Script for automatic build](https://github.com/aaaamirabbas/nekoray-macos)
+[Mac](docs/Build_MacOS.md) or [Unofficial Script for automatic build](https://github.com/aaaamirabbas/nekoray-macos)
 
 [Windows](docs/Build_Windows.md)
 
-## 捐助 / Donate
+## Donate / Donate
 
 Donations are welcome to support project development.
 
-欢迎捐赠以支持项目开发。
+Donations are welcome to support project development.
 
 USDT TRC20
 
